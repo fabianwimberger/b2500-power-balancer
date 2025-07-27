@@ -1,0 +1,8 @@
+services:
+  b2500-meter-1:
+    image: ghcr.io/tomquist/b2500-meter:latest
+    container_name: b2500-meter-1
+    network_mode: host
+    restart: unless-stopped
+    volumes:
+      - ./config.ini:/app/config.ini
