@@ -174,10 +174,10 @@ The system provides real-time console output showing:
 
 Example output:
 ```
-[14:32:15] Net:150W
-🟢S1: 85.2% 200→250W (+50)
-🟢S2: 78.9% 200→300W (+100)
-Total: 400→550W
+2025-07-27 08:01:51,087 - __main__ - INFO - Net Power: 150W
+2025-07-27 08:01:51,087 - __main__ - INFO - Storage 1 (ONLINE): 85.2% 200→250W (+50)
+2025-07-27 08:01:51,087 - __main__ - INFO - Storage 2 (ONLINE): 78.9% 200→300W (+100)
+2025-07-27 08:01:51,087 - __main__ - INFO - Total Output: 400→550W
 ```
 
 ## Troubleshooting
